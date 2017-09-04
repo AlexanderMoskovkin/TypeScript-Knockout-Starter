@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testcafe chrome tests/"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
     "@types/knockout": "^3.4.40"
   },
   "devDependencies": {
+    "testcafe": "^0.17.1",
     "typescript": "^2.3.2"
   }
 }
